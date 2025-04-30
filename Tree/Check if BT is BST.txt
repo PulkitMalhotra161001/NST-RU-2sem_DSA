@@ -1,0 +1,10 @@
+Approach 1:
+Check if inorder is sorted
+
+Approach 2:
+maintain a previous variable to track sorted values
+
+Approach 3:
+take range [min, max]
+if we are going left side [min,root.data]
+if we are going right side [root.data,max]
